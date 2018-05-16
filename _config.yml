@@ -1,16 +1,16 @@
-name:               "Ink"
-description:        "A minimalistic jekyll theme for humans"
+name:               "Nchos Tech Blog"
+description:        "Deep Learning Engineer "
 
 url:                ""
-author:             "thinker3197"
-email:              "jhondoe@abc.com"
+author:             "So Jae Woo"
+email:              "nchos88@gmail.com"
 gravatar_hash:      "205e460b479e2e5b48aec07710c08d50"
 twitter:            "jhondoe"
 email:              "jhondoe@abc.com"
-github:             "jhondoe"
-pinterest:          "jhondoe"
-linkedin:           "jhondoe"
-facebook:           "jhondoe"
+github:             "nchos88@gmail"
+pinterest:          ""
+linkedin:           ""
+facebook:           ""
 
 disqus_shortname:   "thinker3197"
 
@@ -29,6 +29,10 @@ nav:
     href:           "/about"
   - name:           "Download"
     href:           "/releases"
+  - name:           "Paper Review"
+    href:           "/paper"
+  - name:           "Deep Learning with Python"
+    href:           "/dlpython"
 
 sass:
   style:            :compressed
