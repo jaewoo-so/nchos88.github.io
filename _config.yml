@@ -14,7 +14,7 @@ facebook:           ""
 
 disqus_shortname:   "thinker3197"
 
-background:         "https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?cs=srgb&dl=architecture-buildings-business-325185.jpg&fm=jpg"
+background:         "https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?cs=srgb&dl=architecture-buildings-business-325185.jpg"
 
 paginate:           5
 paginate_path:      "/page:num/"
