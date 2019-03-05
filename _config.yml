@@ -6,15 +6,15 @@ author:             "So Jae Woo"
 email:              "nchos88@gmail.com"
 gravatar_hash:      "205e460b479e2e5b48aec07710c08d50"
 twitter:            "jhondoe"
-email:              "jhondoe@abc.com"
-github:             "nchos88@gmail"
+email:              "nchos88@gmail"
+github:             "https://github.com/nchos88"
 pinterest:          ""
 linkedin:           ""
 facebook:           ""
 
 disqus_shortname:   "thinker3197"
 
-background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
+background:         "https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?cs=srgb&dl=architecture-buildings-business-325185.jpg&fm=jpg"
 
 paginate:           5
 paginate_path:      "/page:num/"
