@@ -1,12 +1,22 @@
 ---
-title:        "Sample Post"
-description:  "A short description of the page's content"
-image:        "http://placehold.it/400x200"
-author:       "Jhonathan"
+title:        "Prediction of Protein Contact Map"
+description:  "Paper Review : Accurate De Novo Prediction of Protein Contact Map by Ultra-Deep Learning Model"
+image:        "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005324.g016&type=large"
+author:       "So Jae Woo"
 ---
 
-An h1 header
-============
+1차구조 : 아미노산 서열
+2차구조 : 아미노산 서열 옆에 나있는 곁사슬의 공간적 구조  ,  a-helix , beta_strand
+3차구조 : 아미노산 서열에서 멀리 있는 residue들의 공간적 배열 : subunit
+4차구조 : subunit 의 결합 
+
+
+아래의 링크에 잘 나와있다. 
+https://m.blog.naver.com/jiyun928/130182767739
+
+
+
+
 
 Paragraphs are separated by a blank line.
 
@@ -24,7 +34,6 @@ content starts at 4-columns in.
 > written like so.
 >
 > They can span multiple paragraphs,
-
 > if you like.
 
 Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all

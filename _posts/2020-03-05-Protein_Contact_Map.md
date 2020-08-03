@@ -1,12 +1,30 @@
 ---
-title:        "Sample Post"
-description:  "A short description of the page's content"
-image:        "http://placehold.it/400x200"
-author:       "Jhonathan"
+title:        "Prediction of Protein Contact Map"
+description:  "Paper Review : Accurate De Novo Prediction of Protein Contact Map by Ultra-Deep Learning Model"
+image:        "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005324.g016&type=large"
+author:       "So Jae Woo"
 ---
 
-An h1 header
+Paper Review : Accurate De Novo Prediction of Protein Contact Map by Ultra-Deep Learning Model
 ============
+
+------------
+Motivation
+------------
+프로틴 contact는 단백질 구조와 기능의 중요한 정보를 포함하고 있다. 따라서 시퀀스로부터 이러한 contact를 예측을 하는 것은 매우 중요한 문제이다. 그러나 sequence homologs를 고려하지 않은 예측은 낮은 퀄리티이고, 드노보 구조 예측한는데 유용하지 않다. 
+
+Method
+------------
+본 연구에서는 evolutionary coupling (EC) and sequence conservation information 를 사용한 2개의 딥러닝 모델을 제안한다. 첫번째 resnet은 sequential features로 부터 1차원의 컨벌루션을 한다. 
+두번째 resnet은 이전 resnet의 결과와   EC information and pairwise potential를 이용해 2D 컨벌루션을 한다. 
+
+
+
+
+
+
+
+
 
 Paragraphs are separated by a blank line.
 
@@ -24,7 +42,6 @@ content starts at 4-columns in.
 > written like so.
 >
 > They can span multiple paragraphs,
-
 > if you like.
 
 Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all

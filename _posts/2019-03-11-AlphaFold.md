@@ -1,12 +1,37 @@
 ---
-title:        "Sample Post"
-description:  "A short description of the page's content"
-image:        "http://placehold.it/400x200"
-author:       "Jhonathan"
+title:        "Prediction of Protein Contact Map"
+description:  "Paper Review : Accurate De Novo Prediction of Protein Contact Map by Ultra-Deep Learning Model"
+image:        "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005324.g016&type=large"
+author:       "So Jae Woo"
 ---
 
-An h1 header
+Paper Review : De novo structure prediction with deep­learning based scoring
 ============
+
+------------
+Motivation
+------------
+프로틴 contact는 단백질 구조와 기능의 중요한 정보를 포함하고 있다. 따라서 시퀀스로부터 이러한 contact를 예측을 하는 것은 매우 중요한 문제이다. 그러나 sequence homologs를 고려하지 않은 예측은 낮은 퀄리티이고, 드노보 구조 예측한는데 유용하지 않다. 
+
+Method
+------------
+A7D CASP13의 결과는 3개의 딥러닝 네트워크로부터 계산되는 변형된 비 모델링 구조 예측 시스템으로 부터 나왔다. 스코어링은 
+
+
+
+- 이 시스템은 MSA와 HHBlits , PSI-BLAST 로 부터 만들어진 프로필오 부터 테스트 되었다. 
+
+- 첫번째 네트워크에서는 MSA로 다른 residue의 C-beta원자 거리를 예측한다. 
+- 두번째 네트워크에서는 첫번째 네트워크의 예측 결과와 레퍼런스 분포를 이용해서, 거리에 따른 후보 구조들의 우도 점수를 계산한다. 
+- 이 두번째 네트워크는 MSA와 결합 예측결과를 직접 이용하여 스코어를 매긴다.                                                                   
+
+
+
+
+
+
+
+
 
 Paragraphs are separated by a blank line.
 
@@ -24,7 +49,6 @@ content starts at 4-columns in.
 > written like so.
 >
 > They can span multiple paragraphs,
-
 > if you like.
 
 Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
